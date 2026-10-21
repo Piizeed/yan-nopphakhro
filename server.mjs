@@ -4,7 +4,7 @@ import {resolve,extname} from 'node:path';
 import {pathToFileURL,fileURLToPath} from 'node:url';
 import {createMembership} from './membership.mjs';
 const root=fileURLToPath(new URL('./public/',import.meta.url));
-const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.wasm':'application/wasm','.json':'application/json; charset=utf-8','.woff2':'font/woff2','.ttf':'font/ttf'};
+const types={'.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.txt':'text/plain; charset=utf-8','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.wasm':'application/wasm','.json':'application/json; charset=utf-8','.woff2':'font/woff2','.ttf':'font/ttf'};
 export function createWebServer(membership=createMembership()){
   const timer=setInterval(()=>membership.processPending().catch(()=>{}),60000);timer.unref();
   const server=http.createServer(async(req,res)=>{
