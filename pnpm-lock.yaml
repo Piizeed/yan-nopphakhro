@@ -1,0 +1,29 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@swisseph/browser':
+        specifier: 1.4.0
+        version: 1.4.0
+
+packages:
+
+  '@swisseph/browser@1.4.0':
+    resolution: {integrity: sha512-5QWU3Rg++4cNUhc/SuoNyZi0i5xxsFH/lzl/28i+7VZXrnelsdzZLpVKV+HbSwaLx9Ld22HkS0NKaJALiBQehw==}
+
+  '@swisseph/core@1.4.0':
+    resolution: {integrity: sha512-QxIary688cnG9Dak8ePm3NIXmfNQlMzRj0jV+RVa4J3httVTLcVUGRLb6lTsXkOek6WQdzytW9S86PvKwDTjtw==}
+
+snapshots:
+
+  '@swisseph/browser@1.4.0':
+    dependencies:
+      '@swisseph/core': 1.4.0
+
+  '@swisseph/core@1.4.0': {}

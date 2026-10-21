@@ -1,0 +1,11 @@
+{
+  "package": "@swisseph/browser",
+  "version": "1.4.0",
+  "license": "AGPL-3.0",
+  "source": "https://github.com/swisseph-js/swisseph",
+  "hashes": {
+    "swisseph-browser.js": "a47619a9894cfbb718abf77ab82f81a2a075f07e9b457edf00fc06d8f6b4efb6",
+    "swisseph.js": "acb3d36ef222c0ed177cc29a831277fd7ff99f8f3d665090f59e0efe7770c695",
+    "swisseph.wasm": "dcd514a2a39a5d24309fe1b81d09c6ff66cd40b883e24bc7cbb765dcbf95e869"
+  }
+}

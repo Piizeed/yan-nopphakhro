@@ -1,0 +1,1 @@
+{"name":"lakhana-local","version":"3.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test","prepare:vendor":"node scripts/prepare-vendor.mjs","test:browser":"node scripts/browser-smoke.mjs"},"engines":{"node":">=22.13"},"dependencies":{"@swisseph/browser":"1.4.0"}}

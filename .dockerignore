@@ -1,0 +1,15 @@
+*
+!Dockerfile
+!package.json
+!server.mjs
+!membership.mjs
+!subscriptions.mjs
+!premium.mjs
+!slip-verifier.mjs
+!public/
+!public/**
+!licenses/
+!licenses/**
+!scripts/
+!scripts/admin.mjs
+!THIRD_PARTY_NOTICES.md

@@ -1,0 +1,38 @@
+# This blueprint provisions PAID compute and a persistent disk when the owner applies it.
+# Review Render's current prices before creating resources.
+services:
+  - type: web
+    name: yan-nopphakhro
+    runtime: docker
+    plan: starter
+    region: singapore
+    healthCheckPath: /healthz
+    disk:
+      name: yan-member-data
+      mountPath: /app/data
+      sizeGB: 1
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: "3000"
+      - key: DATABASE_PATH
+        value: /app/data/members.sqlite
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: PUBLIC_ORIGIN
+        sync: false
+      - key: PAYMENT_MODE
+        value: easyslip
+      - key: PAYMENT_BANK
+        sync: false
+      - key: PAYMENT_ACCOUNT
+        sync: false
+      - key: PAYMENT_NAME
+        sync: false
+      - key: EASYSLIP_API_KEY
+        sync: false
+      - key: EASYSLIP_RECEIVER_ACCOUNT
+        sync: false
+      - key: EASYSLIP_RECEIVER_BANK
+        value: "004"
