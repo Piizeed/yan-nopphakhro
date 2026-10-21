@@ -1,5 +1,11 @@
 # YAN NOPPHAKHRO / ญาณนพเคราะห์
 
+**เว็บไซต์:** https://yan-nopphakhro.onrender.com
+
+ผูกดวงจากวัน เวลา และสถานที่เกิดครบ 77 จังหวัด สมัคร Free เพื่ออ่านรายวัน 3 ครั้งต่อสัปดาห์ และเลือก Pro 29/69 บาทต่อเดือนสำหรับรายละเอียดเพิ่มเติม
+
+[เริ่มใช้งานฟรี](https://yan-nopphakhro.onrender.com/#login) · [รู้จักเว็บ](https://yan-nopphakhro.onrender.com/about.html)
+
 เว็บผูกดวงพร้อมบัญชีสมาชิกและสิทธิ์ Free / Pro 29 / Pro 69 ตรวจสิทธิ์และนับโควตาบนเซิร์ฟเวอร์ เก็บบัญชีใน SQLite ไม่ใช่สมาชิกจำลองใน localStorage
 
 ## เปิดใช้งาน
