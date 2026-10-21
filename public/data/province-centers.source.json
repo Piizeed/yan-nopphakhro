@@ -1,0 +1,6 @@
+{
+  "url": "https://raw.githubusercontent.com/DevelopedbyWill/thailand-canonical-admin-names/main/data/v1.0.0/thailand-adm1-provinces-v1.0.0.csv",
+  "sha256": "e1e7174036e29d263c9da861bd3ad872fa147502bba610c21ab02b3666f931b6",
+  "license": "CC-BY-4.0",
+  "changes": "Retained TIS code and province centroid latitude/longitude only."
+}
