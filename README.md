@@ -102,3 +102,7 @@ public/data/, vendor/     พิกัด 77 จังหวัด WASM ฟอ�
 ยังไม่ได้ deploy สาธารณะหรือรับเงินจริง ก่อนเปิดบริการต้องเตรียมบัญชีรับเงิน/ผู้ให้บริการที่รองรับธุรกิจนี้ ทดสอบธุรกรรมจริงและกรณีคืนเงิน ใส่ข้อมูลผู้ประกอบการ/ติดต่อ/เงื่อนไขบริการ และตรวจสิทธิ์เผยแพร่ซอฟต์แวร์
 
 Swiss Ephemeris และ wrapper มีเงื่อนไขใบอนุญาต AGPL/dual license อ่าน [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) ก่อนแจกจ่ายหรือเปิดบริการ การซื้อ commercial license ตัว C อย่างเดียวไม่เปลี่ยนสิทธิ์ของ wrapper AGPL ต้องเลือกแนวทางเผยซอร์สหรือ binding/สิทธิ์ที่สอดคล้องก่อนเปิดเชิงพาณิชย์
+
+## License and corresponding source
+
+Copyright (c) 2026 Piizeed. This application is free software under GNU AGPL version 3; see LICENSE. Complete application source, build/deployment configuration, and dependency lockfile are available at https://github.com/Piizeed/yan-nopphakhro. Third-party components retain their notices and licenses; see THIRD_PARTY_NOTICES.md. User data, payment credentials, and database files are not part of the source distribution.

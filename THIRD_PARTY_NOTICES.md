@@ -8,7 +8,7 @@
 - Vendored artifacts are copied without modification from the npm package into `public/vendor/swisseph/`. SHA-256 checksums are recorded in its `manifest.json`; `pnpm-lock.yaml` pins package integrity.
 - Wrapper license: AGPL-3.0. Preserved in `licenses/swisseph-js-LICENSE.txt`.
 - Swiss Ephemeris copyright: Astrodienst AG, Switzerland. Its dual-license notice is preserved in `licenses/Swiss-Ephemeris-LICENSE.txt`.
-- This deliverable is for private, local use. Before distributing it or operating a public service, comply with the wrapper and underlying library licenses. Purchasing a Swiss Ephemeris professional license does not by itself establish a separate license for the AGPL wrapper. Select a compatible distribution model or a separately licensed binding before a closed-source commercial launch.
+- The owner has selected AGPL-3.0 distribution for the application. Application source and build/deployment files: https://github.com/Piizeed/yan-nopphakhro. The website footer links to this source. Dependencies retain their original licenses.
 - Numeric validation fixtures are produced by native `pysweph` 2.10.3.6 (Swiss Ephemeris 2.10.03), https://pypi.org/project/pysweph/. Python and this validation dependency are not needed to run the app.
 
 ## Province coordinates
